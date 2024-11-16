@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Ecads Autoform",
+  "version": "1.0",
+  "description": "Tired of filling the course feedback in IITD portal? Let this extension do it for you!",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://eacademics.iitd.ac.in/sportal/logincheck"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "assets/baigan.png"
+    }
+  },
+  "icons": {
+    "128": "assets/baigan.png"
+  }
+}
