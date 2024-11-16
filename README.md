@@ -1,6 +1,6 @@
-# Eacd_form Filler Chrome Extension
+# Eacad_form Filler Chrome Extension
 
-Eacd_form Filler is a simple and efficient Chrome extension that automates the process of filling feedback forms. With a toggle button to enable or disable automation, the extension selects predefined options in forms and fills out text areas for you. It's perfect for repetitive tasks like filling feedback forms.
+Eacad_form Filler is a simple and efficient Chrome extension that automates the process of filling feedback forms. With a toggle button to enable or disable automation, the extension selects predefined options in forms and fills out text areas for you. It's perfect for repetitive tasks like filling feedback forms.
 
 ---
 
