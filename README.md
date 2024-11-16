@@ -76,6 +76,12 @@ Feel free to fork the repository and submit pull requests for improvements or ne
 
 ---
 
+## Disclaimer
+
+I created this extension for my personal use and decided to make it public so others can use it for courses that they consider less important. I have no intention of violating any rules or policies set by IITD’s administration. Using this extension is entirely your decision, and I am not responsible for how it is used.
+
+---
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
