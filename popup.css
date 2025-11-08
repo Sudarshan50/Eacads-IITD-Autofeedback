@@ -8,10 +8,11 @@ body,
 }
 
 body {
-    width: 250px;
-    height: 200px;
+    width: 320px;
+    height: auto;
+    min-height: 400px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,8 +65,76 @@ h1 {
 }
 
 .credit {
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 1em;
-  color: #605c5c;
+  color: #00f72d;
   font-style: italic;
+}
+
+.settings-section {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.settings-section h3 {
+  margin: 0 0 10px 0;
+  font-size: 0.9em;
+  color: #7202f2;
+  font-weight: 600;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.85em;
+  color: #333;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.rating-select {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #7202f2;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  cursor: pointer;
+}
+
+.weight-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.weight-input label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: #333;
+}
+
+.weight-input input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 2px solid #7202f2;
+  border-radius: 5px;
+  font-size: 0.85em;
+  text-align: center;
 }

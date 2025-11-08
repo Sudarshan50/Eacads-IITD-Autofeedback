@@ -8,9 +8,44 @@
   </head>
   <body>
     <div class="container">
-      <h1>Eacads AutoForm</h1>
+      <h1>Eacads 69</h1>
+      
+      <div class="settings-section">
+        <h3>Fill Mode</h3>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="fillMode" value="random" checked />
+            <span>Weighted Random</span>
+          </label>
+          <label>
+            <input type="radio" name="fillMode" value="fixed" />
+            <span>Fixed Rating</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="settings-section" id="fixedRatingSection" style="display: none;">
+        <h3>Select Rating</h3>
+        <select id="fixedRating" class="rating-select">
+          <option value="Poor">Poor</option>
+          <option value="Average" selected>Average</option>
+          <option value="Good">Good</option>
+          <option value="Excellent">Excellent</option>
+        </select>
+      </div>
+
+      <div class="settings-section" id="weightsSection">
+        <h3>Rating Weights</h3>
+        <div class="weight-input">
+          <label>Poor: <input type="number" id="weightPoor" min="0" max="100" value="5" /></label>
+          <label>Average: <input type="number" id="weightAverage" min="0" max="100" value="30" /></label>
+          <label>Good: <input type="number" id="weightGood" min="0" max="100" value="40" /></label>
+          <label>Excellent: <input type="number" id="weightExcellent" min="0" max="100" value="25" /></label>
+        </div>
+      </div>
+
       <button id="toggleAutomation" class="toggle-btn"></button>
-      <p class="credit">Created by Sudarshan</p>
+      <!-- <p class="credit">Created by Sudarshan</p> -->
     </div>
     <script src="popup.js"></script>
   </body>
